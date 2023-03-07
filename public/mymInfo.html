@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/mymDecor.css">
+    <title>Meet Your Meal</title>
+	<script type="module" src="/index.js"></script>
+  </head>
+  <body>	
+	<nav class="navbar">
+		<a href="/mymAbout.html">ABOUT</a>
+		<a href="/mymHowToUse.html">HOW TO USE</a>
+		<a href="/mymMain.html">HOME</a>
+		<a href="/mymInfo.html" class="active">GET STARTED</a>
+		<a href="">MORE</a>
+	</nav>
+
+	<div class="main">
+		<div>
+			<h1>Meet Your Meal</h1>
+			<h1><u>Get Started</u></h1>
+		</div>
+		<img id="logo" src="css/mymLogo.png" alt="MYM Logo">
+		
+		<div>
+			<input type="radio" id="solo" name="isSolo" value="1">
+			<label for="solo">Play By Myself</label>
+
+            <br><br>
+
+            <input type="radio" id="notSolo" name="isSolo" value="0">
+            <label for="notSolo">Play With <select name="numPlayers" id="userSelect"> <option value="2">2</option> <option value="3">3</option> <option value="3">3</option> 
+            <option value="4">4</option> <option value="5">5</option> <option value="6">6</option> <option value="7">7</option> <option value="8">8</option> 
+            <option value="9">9</option> <option value="10">10</option> </select> People</label>
+			
+			<br><br>
+			
+			<label>Enter the name of a Town, City, or State where you want to eat: </label>
+            <input type="text" id="restInput" value="location" name="restLoc">
+
+            <br><br>
+
+            <button type="submit" class="contButton"> Continue </button>
+
+		</div>
+	</div>
+	</body>
+ </html>

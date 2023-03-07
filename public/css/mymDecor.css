@@ -16,6 +16,38 @@ html{
 	position: relative;
 }
 
+/*
+Needs work to look good
 .olSnap{
 	text-align: center;
+}
+*/
+
+.navbar {
+	overflow: hidden;
+	background-color: #0EFECC;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+.navbar a{
+	float: left;
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 15px 18px;
+	text-decoration: none;
+	font-size: 30px;
+  }
+.navbar a:hover{
+	color: #ffffff;
+}
+
+.active{
+	background-color: #09b18e;
+}
+
+.contButton{
+	background-color: #0EFECC;
+	color: black;
 }
